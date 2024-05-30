@@ -1,0 +1,28 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 200vw;
+    height: 200svh;
+    min-width: 1500px;
+    min-height: 1500px;
+    background: url(media/bladtextuur.jpg);
+    background-size: cover;
+}
+
+#lunagoiris {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
